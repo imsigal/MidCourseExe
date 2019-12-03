@@ -65,12 +65,40 @@ nav > ul > li > a{
 .dropdown:hover > .dropdown-content {
   display: inherit;
 }
- 
+
+/*main area*/
+#main-area{
+    overflow: auto;
+}
+#main-area>.section{
+    float: left;
+    width: 30%;
+    padding:10px;
+    margin-left: 20px;
+    
+}
+
+#main-area>.section>.upper-section{
+    border: 1px solid black;
+    background: yellow;
+    width:100%;
+    margin: 10px;
+    height: 40vh;
+    padding:10px;
+}
+
+#main-area>.section>.lower-section{
+    border: 1px solid red;
+    background:greenyellow;
+    width:100%;
+    margin: 10px;
+    padding:10px;
+    height: 40vh;
+}
 
 
 /*footer section*/
  footer{
-    /* position: fixed; not move at scrolling */
      width:100%;
 } 
 
