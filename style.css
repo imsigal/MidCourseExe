@@ -76,7 +76,7 @@ main> div.section{
     margin: 0 10px;
     padding: 0 ;
 }
-
+/*upper section*/
 .upper-section {
     position: relative;
   }
@@ -100,11 +100,23 @@ main> div.section{
   }
 
 
-  .upper-section>.upper-section-details>.p-left-position { 
+  .upper-section>.upper-section-details>.p-left-position,.lower-section>.p-left-position { 
       width:100%; 
     text-align:left; 
   }
 
+  /*lower section*/
+  .lower-section{
+    background-image: url("images/small_cube_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  }
+
+  .lower-section>img , .lower-section>h4{ 
+    width:80%; 
+    text-align:center; 
+}
  
 /*footer section*/
  footer{
