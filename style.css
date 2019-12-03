@@ -10,3 +10,28 @@ body{
 header,footer{
     background-color: rgb(144, 144, 144);
 }
+ footer{
+     position: fixed;/* not move at scrolling */
+     width:100%;
+} 
+footer>#bottom-menu{
+    color: white; 
+    width: 100%; 
+    text-align: center;
+}
+footer>#bottom-menu>a {
+    display:inline-block;
+    padding: 5px;
+    text-decoration: none;
+    color: white; 
+}
+
+footer>#bottom-menu>a.red-menu-item {
+    color: red;
+   
+}
+
+footer>#bottom-menu>a:hover {
+color:rgb(0, 93, 162);
+
+}
