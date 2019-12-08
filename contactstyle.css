@@ -6,9 +6,6 @@
     margin-bottom: 30px ;
 }
 
-/* #main-contact>div.contact-form{
-  width: 40%;
-} */
 
 #main-contact>div.contact-menu {
     width: 10%;
@@ -23,25 +20,28 @@
   #main-contact>div.contact-details>div.section {
     height: 50%;
     margin: 20px;
-    background-color: khaki;
     padding:0 15px;
-    /* background-image: url("images/small_cube_bg.png");
-    background-repeat: no-repeat; */
+    background-image: url("images/cube_bg.png");
+    background-repeat: no-repeat; 
+    background-size:cover; 
     line-height: 1;
+    min-height:70px;
+    
   }
 
   #main-contact>div.contact-form>h4{
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid rgb(128,137,146);
   }
 
   #main-contact>div.contact-form>form{
-    /* background-image: url("images/cube_bg.png");
+     background-image: url("images/small_cube_bg.png");
     background-repeat: no-repeat;
-    background-size: auto; */
-    background-color: khaki;
+    background-size: cover; 
     padding: 15px;
-    width:80%;
+    width:95%;
+    min-height:300px;
   }
+
   .blue-header{
     color: rgb(0, 92, 160);
   }
@@ -49,6 +49,7 @@
   .form-group {
     display: flex;
     flex-direction: row;
+    margin-right: 10%;
   }
 
   .form-group label {
@@ -60,8 +61,8 @@
   .form-group .input-control {
     flex: 1 1 auto;
     display: block;
-    margin: 5px;
-    padding: 4px;
+    margin: 3px;
+    padding: 2px;
     border:1px solid rgb(128,137,146);
   }
   
