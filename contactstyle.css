@@ -8,9 +8,23 @@
 
 
 #main-contact>div.contact-menu {
-    width: 10%;
-   
+    width: 15%;
+    
   }
+  #main-contact>div.contact-menu>ul.gradient-gray-background
+  {
+    list-style-type:none;
+    list-style-image:url("/images/triangle.png");
+    background: linear-gradient(1deg, rgba(204,204,204,1) 0%, rgba(255,255,255,1) 100%);
+    padding: 10px 0;
+    padding-left: 40%;
+  }
+
+  #main-contact>div.contact-menu>ul.gradient-gray-background>li
+  {
+    margin-right: 20px; 
+  }
+
 
   #main-contact>div.contact-details{
     width: 30%;
