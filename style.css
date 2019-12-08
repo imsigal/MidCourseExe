@@ -8,6 +8,17 @@ body{
     font-family: 'Arial (Hebrew)', Arial;
 }
 
+a.no-link-color{
+  text-decoration: none; 
+  color: inherit;
+}
+
+a:hover{
+  color: rgb(0, 93, 162);
+  text-decoration-line: underline;
+}
+
+
 .menu{
     color: white; 
     width: 100%; 
@@ -48,9 +59,7 @@ nav > ul > li > a{
   min-width: 100%;
   background-color: rgb(144, 144, 144);
 }
- .dropdown:hover > a  {
-    color:rgb(0, 93, 162);
-  }
+ 
 
   .dropdown-content > a  {
     text-decoration: none; 
