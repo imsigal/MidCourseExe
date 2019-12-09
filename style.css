@@ -32,16 +32,16 @@ header,footer{
     background-color: rgb(144, 144, 144);
 }
 /*header section*/
+
 nav> ul{
     display:flex;
     list-style: none;
-    justify-content: center;
+    justify-content: center;   
 }
 
 
 nav > ul > li > a, .dropdown-content > a {
-  display: block;
-  
+  display: block; 
   padding: 10px 20px;
   color: white;
 }
@@ -61,6 +61,7 @@ nav > ul > li > a{
   top: 100%;
   min-width: 100%;
   background-color: rgb(144, 144, 144);
+  z-index: 9999;
 }
  
 
