@@ -42,13 +42,15 @@ nav> ul{
 
 nav > ul > li > a, .dropdown-content > a {
   display: block; 
-  padding: 10px 20px;
+  padding: 10px;
   color: white;
 }
 
 nav > ul > li > a{
-    text-decoration: none; 
+    text-decoration: none;    
 }
+
+
 
 .dropdown {
   position: relative;   
