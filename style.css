@@ -217,6 +217,8 @@ main> div.main-page-section{
  
 /*footer section*/
  footer{
+    position: fixed;
+    bottom: 0;
      width:100%;
 } 
 
