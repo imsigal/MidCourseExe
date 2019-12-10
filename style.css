@@ -17,6 +17,10 @@ a.no-link-color{
   color: inherit;
 }
 
+a.no-line{
+  text-decoration: none; 
+}
+
 a:hover{
   color: rgb(0, 93, 162);
   text-decoration-line: underline;
