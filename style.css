@@ -192,13 +192,20 @@ main> div.main-page-section{
 
   ul.list-with-icon
   {
-    list-style-type:none;
-    list-style-image:url("/images/read_more_yellow.png");
+    list-style-type:none; 
     list-style-position: outside;
     direction: ltr; 
+  }
+  ul.list-with-icon-yellow{
     color: rgb(114, 113, 109);
+    list-style-image:url("/images/read_more_yellow.png");
+  }
+  ul.list-with-icon-white{
+    color: white;
+    list-style-image:url("/images/read_more_white.png");
   }
 
+  
   .lower-section>div.stations-data{
     display: flex;
     align-items:flex-start;
