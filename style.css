@@ -6,6 +6,7 @@ body{
     direction:rtl ;
     margin: 0;
     font-family: 'Arial (Hebrew)', Arial;
+    min-width: 1024px;
 }
 
 a.no-link-color-and-line{
@@ -26,12 +27,22 @@ a:hover{
     color: white; 
     width: 100%; 
     text-align: center;
+    position: relative;
 }
 
 header,footer{
     background-color: rgb(144, 144, 144);
 }
 /*header section*/
+#img-logo{
+  position: absolute;
+  right: 0;
+  top:0;
+  z-index: 9999;
+}
+nav{
+  padding-top: 5px;
+}
 
 nav> ul{
     display:flex;
