@@ -231,10 +231,9 @@ footer>.menu>a.red-menu-item {
    
 }
 
+
 footer>.menu>a:hover {
-color:rgb(0, 93, 162);
-
-}
-
-
+  color:rgb(0, 93, 162);
+  text-decoration-line: underline;
+  }
 
