@@ -215,9 +215,10 @@ main> div.main-page-section{
 
 footer>.menu>a {
     display:inline-block;
-    padding: 5px;
+    padding: 2px;
     text-decoration: none;
     color: white; 
+    font-size: smaller;
 }
 
 footer>.menu>a.red-menu-item {
