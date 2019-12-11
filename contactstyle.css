@@ -14,7 +14,7 @@
   #main-contact>div.contact-menu>ul.gradient-gray-background
   {
     list-style-type:none;
-    list-style-image:url("/images/triangle.png");
+    list-style-image:url("images/triangle.png");
     background: linear-gradient(1deg, rgba(204,204,204,1) 0%, rgba(255,255,255,1) 100%);
     padding: 10px 0;
     margin-left: 20px;

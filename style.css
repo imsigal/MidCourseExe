@@ -196,11 +196,11 @@ main> div.main-page-section{
   }
   ul.list-with-icon-yellow{
     color: rgb(114, 113, 109);
-    list-style-image:url("/images/read_more_yellow.png");
+    list-style-image:url("images/read_more_yellow.png");
   }
   ul.list-with-icon-white{
     color: white;
-    list-style-image:url("/images/read_more_white.png");
+    list-style-image:url("images/read_more_white.png");
   }
 
   
