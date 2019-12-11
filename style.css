@@ -54,6 +54,7 @@ header{
   left: 0;
   top:0;
   margin-left :10%;
+  display: flex;
 }
 
 #search-section>button{
@@ -63,6 +64,7 @@ header{
   background: none;
   box-shadow: none;
   border-radius: 0px;
+  font-size: 0;
 }
 
 #search-section>input{
